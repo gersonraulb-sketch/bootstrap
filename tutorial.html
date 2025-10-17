@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body class="bg-black">
+
+    <nav class="navbar navbar-expand-sm bg-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Pag ejemplo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cursos.html">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tutorial.html">Tutorial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contactos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="max-height: 600px;">
+                <img src="img/intro.jpg" class="d-block w-100" alt="tutorial1">
+            </div>
+            <div class="carousel-item" style="max-height: 600px;">
+                <img src="img/avanzado.jpg" class="d-block w-100" alt="tutorial2">
+            </div>
+            <div class="carousel-item" style="max-height: 600px;">
+                <img src="img/pro.webp" class="d-block w-100" alt="tutorial3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container mt-5">
+        <h2 class="text-center text-white mb-5">Tutoriales</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card bg-dark border-0">
+                    <img src="img/tutorial-card1.jpg" class="card-img-top" alt="tutorial1">
+                    <div class="card-body">
+                        <h5 class="card-title text-white">Tutorial 1: Introducción</h5>
+                        <p class="card-text text-white">Este es el primer tutorial, donde aprenderás los conceptos básicos...</p>
+                        <a href="#" class="btn btn-warning">Ver tutorial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card bg-dark border-0">
+                    <img src="img/tutorial-card2.jpg" class="card-img-top" alt="tutorial2">
+                    <div class="card-body">
+                        <h5 class="card-title text-white">Tutorial 2: Avanzado</h5>
+                        <p class="card-text text-white">Aquí profundizamos en técnicas más avanzadas para llevar tus habilidades al siguiente nivel...</p>
+                        <a href="#" class="btn btn-warning">Ver tutorial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card bg-dark border-0">
+                    <img src="img/tutorial-card3.jpg" class="card-img-top" alt="tutorial3">
+                    <div class="card-body">
+                        <h5 class="card-title text-white">Tutorial 3: Expertos</h5>
+                        <p class="card-text text-white">Este tutorial está dirigido a expertos que desean dominar la materia...</p>
+                        <a href="#" class="btn btn-warning">Ver tutorial</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid bg-dark p-5 text-center">
+            <div class="row">
+                <div class="col"><a href="index.html" class="text-decoration-none text-warning"><i
+                            class="bi bi-calendar3"></i>
+                        INICIO</a></div>
+                <div class="col"><a href="cursos.html" class="text-decoration-none text-warning"><i class="bi bi-youtube"></i>
+                        CURSOS</a></div>
+                <div class="col"><a href="tutorial.html" class="text-decoration-none text-warning"><i class="bi bi-folder2"></i>
+                        TUTORIALES</a></div>
+                <div class="col"><a href="contacto.html" class="text-decoration-none text-warning"><i
+                            class="bi bi-twitter-x"></i>
+                        CONTACTO</a></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
